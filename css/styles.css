@@ -186,6 +186,7 @@ body {
 }
 
 .visually-hidden {
+  display: inline-flex;
   position: absolute;
   width: 1px;
   height: 1px;
