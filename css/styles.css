@@ -186,7 +186,6 @@ body {
 }
 
 .visually-hidden {
-  display: inline-flex;
   position: absolute;
   width: 1px;
   height: 1px;
@@ -638,12 +637,11 @@ input::placeholder {
 
 .checkbox-cont {
   margin-bottom: 24px;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
 }
 
 .privacy {
-  display: inline-flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -672,8 +670,7 @@ input:checked + label .custom-checkbox {
 }
 
 .modal-link {
-  display: flex;
-  margin-left: 4px;
+  display: inline;
   color: #4d5ae5;
 }
 
